@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'concourse/vvs/pipeline'
+require 'vvs/network_builder'
+
+include Concourse::VVS
+include VVS
+
+network = NetworkBuilder.new(
+  LinesFetcher.new,
+  LinesParser.new,
+  StationsFetcher.new,
+  StationsParser.new
+).build
+
+File.write 'spec/fixtures/lines.json', VVS::LinesFetcher.new.lines
+
+network.lines.each do |line|
+  File.write "spec/fixtures/stations/#{line.id}.json", VVS::StationsFetcher.new.stations(line)
+end
+
+# network.lines.each do |line|
+#   puts "#{line} has #{line.stations.size} stations"
+# end
+#
+# network.stations.each do |station|
+#   puts "#{station} has #{station.lines.size} lines"
+# end
+#
+# # Should be 8
+# warn network.station('Stuttgart Hauptbahnhof (tief)').lines.size
+#

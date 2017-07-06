@@ -1,0 +1,170 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08118:1400",
+      "name": "Bietigheim-Bissingen",
+      "type": "stop",
+      "parent": {
+        "id": "8118079|1",
+        "name": "Bietigheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7404",
+      "name": "Tamm",
+      "type": "stop",
+      "parent": {
+        "id": "8118071|2",
+        "name": "Tamm",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7400",
+      "name": "Asperg",
+      "type": "stop",
+      "parent": {
+        "id": "8118003|1",
+        "name": "Asperg",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7402",
+      "name": "Ludwigsburg",
+      "type": "stop",
+      "parent": {
+        "id": "8118048|4",
+        "name": "Ludwigsburg",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:1402",
+      "name": "Kornwestheim",
+      "type": "stop",
+      "parent": {
+        "id": "8118046|1",
+        "name": "Kornwestheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6465",
+      "name": "Zuffenhausen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:1402",
+      "name": "Kornwestheim",
+      "type": "stop",
+      "parent": {
+        "id": "8118046|1",
+        "name": "Kornwestheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6465",
+      "name": "Zuffenhausen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6157",
+      "name": "Feuerbach",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6295",
+      "name": "Nordbahnhof",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6115",
+      "name": "Stuttgart Hauptbahnhof (oben)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6118",
+      "name": "Stuttgart Hauptbahnhof (tief)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6056",
+      "name": "Stadtmitte",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6221",
+      "name": "Feuersee",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6052",
+      "name": "Schwabstraße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    }
+  ]
+}

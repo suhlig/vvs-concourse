@@ -1,0 +1,291 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08115:4512",
+      "name": "Herrenberg",
+      "type": "stop",
+      "parent": {
+        "id": "8115021|5",
+        "name": "Herrenberg",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:5775",
+      "name": "Nufringen",
+      "type": "stop",
+      "parent": {
+        "id": "8115037|1",
+        "name": "Nufringen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:5774",
+      "name": "Gärtringen",
+      "type": "stop",
+      "parent": {
+        "id": "8115015|1",
+        "name": "Gärtringen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:5773",
+      "name": "Ehningen",
+      "type": "stop",
+      "parent": {
+        "id": "8115013|1",
+        "name": "Ehningen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7115",
+      "name": "Hulb",
+      "type": "stop",
+      "parent": {
+        "id": "8115003|1",
+        "name": "Böblingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7100",
+      "name": "Böblingen",
+      "type": "stop",
+      "parent": {
+        "id": "8115003|1",
+        "name": "Böblingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:3201",
+      "name": "Sindelfingen",
+      "type": "stop",
+      "parent": {
+        "id": "8115045|9",
+        "name": "Sindelfingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:3198",
+      "name": "Maichingen",
+      "type": "stop",
+      "parent": {
+        "id": "8115045|5",
+        "name": "Maichingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:3197",
+      "name": "Maichingen Nord",
+      "type": "stop",
+      "parent": {
+        "id": "8115045|5",
+        "name": "Maichingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:3196",
+      "name": "Magstadt",
+      "type": "stop",
+      "parent": {
+        "id": "8115029|1",
+        "name": "Magstadt",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:3195",
+      "name": "Renningen Süd",
+      "type": "stop",
+      "parent": {
+        "id": "8115041|4",
+        "name": "Renningen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7302",
+      "name": "Renningen",
+      "type": "stop",
+      "parent": {
+        "id": "8115041|4",
+        "name": "Renningen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:1302",
+      "name": "Rutesheim",
+      "type": "stop",
+      "parent": {
+        "id": "8115042|2",
+        "name": "Rutesheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7301",
+      "name": "Leonberg",
+      "type": "stop",
+      "parent": {
+        "id": "8115028|7",
+        "name": "Leonberg",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:1003",
+      "name": "Höfingen",
+      "type": "stop",
+      "parent": {
+        "id": "8115028|6",
+        "name": "Höfingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7000",
+      "name": "Ditzingen",
+      "type": "stop",
+      "parent": {
+        "id": "8118011|1",
+        "name": "Ditzingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:2270",
+      "name": "Weilimdorf",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7603",
+      "name": "Korntal",
+      "type": "stop",
+      "parent": {
+        "id": "8118080|2",
+        "name": "Korntal",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:1403",
+      "name": "Neuwirtsh. (Porschep.)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6465",
+      "name": "Zuffenhausen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6157",
+      "name": "Feuerbach",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6295",
+      "name": "Nordbahnhof",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6118",
+      "name": "Stuttgart Hauptbahnhof (tief)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6056",
+      "name": "Stadtmitte",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6221",
+      "name": "Feuersee",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6052",
+      "name": "Schwabstraße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    }
+  ]
+}

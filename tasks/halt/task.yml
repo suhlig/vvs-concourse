@@ -1,0 +1,17 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: suhligibm/ci-ruby-base
+
+inputs:
+  - name: pipeline
+
+params:
+  station:
+  stopover_time: 60
+
+run:
+  path: pipeline/tasks/halt/task.sh

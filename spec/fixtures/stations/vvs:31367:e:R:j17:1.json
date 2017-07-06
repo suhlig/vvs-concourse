@@ -1,0 +1,27 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08119:6522",
+      "name": "Großaspach mechatronik Arena",
+      "type": "stop",
+      "parent": {
+        "id": "8119087|6",
+        "name": "Großaspach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7600",
+      "name": "Backnang ZOB",
+      "type": "stop",
+      "parent": {
+        "id": "8119008|1",
+        "name": "Backnang",
+        "type": "locality"
+      }
+    }
+  ]
+}

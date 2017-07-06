@@ -1,0 +1,379 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7703",
+      "name": "Schorndorf",
+      "type": "stop",
+      "parent": {
+        "id": "8119067|9",
+        "name": "Schorndorf",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1704",
+      "name": "Weiler (R)",
+      "type": "stop",
+      "parent": {
+        "id": "8119067|13",
+        "name": "Weiler (R)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1705",
+      "name": "Winterbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119086|4",
+        "name": "Winterbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1702",
+      "name": "Geradstetten",
+      "type": "stop",
+      "parent": {
+        "id": "8119090|3",
+        "name": "Geradstetten",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1703",
+      "name": "Grunbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119090|4",
+        "name": "Grunbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:3711",
+      "name": "Beutelsbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119091|3",
+        "name": "Beutelsbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7704",
+      "name": "Endersbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119091|5",
+        "name": "Endersbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1701",
+      "name": "Stetten-Beinstein",
+      "type": "stop",
+      "parent": {
+        "id": "8119091|5",
+        "name": "Endersbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7701",
+      "name": "Rommelshausen",
+      "type": "stop",
+      "parent": {
+        "id": "8119093|2",
+        "name": "Rommelshausen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7604",
+      "name": "Waiblingen",
+      "type": "stop",
+      "parent": {
+        "id": "8119079|8",
+        "name": "Waiblingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:6500",
+      "name": "Fellbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119020|1",
+        "name": "Fellbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:1300",
+      "name": "Sommerrain",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:34",
+      "name": "Nürnberger Straße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6333",
+      "name": "Bad Cannstatt",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6118",
+      "name": "Stuttgart Hauptbahnhof (tief)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6056",
+      "name": "Stadtmitte",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6221",
+      "name": "Feuersee",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6052",
+      "name": "Schwabstraße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6008",
+      "name": "Universität",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6027",
+      "name": "Österfeld",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6002",
+      "name": "Vaihingen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6001",
+      "name": "Rohr",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:2105",
+      "name": "Oberaichen",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|3",
+        "name": "Leinfelden",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:175",
+      "name": "Leinfelden",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|3",
+        "name": "Leinfelden",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:7003",
+      "name": "Echterdingen",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|1",
+        "name": "Echterdingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:2103",
+      "name": "Flughafen/Messe",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|1",
+        "name": "Echterdingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:1905",
+      "name": "Filderstadt",
+      "type": "stop",
+      "parent": {
+        "id": "8116077|1",
+        "name": "Bernhausen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7703",
+      "name": "Schorndorf",
+      "type": "stop",
+      "parent": {
+        "id": "8119067|9",
+        "name": "Schorndorf",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1704",
+      "name": "Weiler (R)",
+      "type": "stop",
+      "parent": {
+        "id": "8119067|13",
+        "name": "Weiler (R)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1705",
+      "name": "Winterbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119086|4",
+        "name": "Winterbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1702",
+      "name": "Geradstetten",
+      "type": "stop",
+      "parent": {
+        "id": "8119090|3",
+        "name": "Geradstetten",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1703",
+      "name": "Grunbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119090|4",
+        "name": "Grunbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:3711",
+      "name": "Beutelsbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119091|3",
+        "name": "Beutelsbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7704",
+      "name": "Endersbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119091|5",
+        "name": "Endersbach",
+        "type": "locality"
+      }
+    }
+  ]
+}

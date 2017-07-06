@@ -1,0 +1,203 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7600",
+      "name": "Backnang",
+      "type": "stop",
+      "parent": {
+        "id": "8119008|1",
+        "name": "Backnang",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7500",
+      "name": "Burgstall (M)",
+      "type": "stop",
+      "parent": {
+        "id": "8119018|2",
+        "name": "Burgstall (M)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7502",
+      "name": "Kirchberg (M)",
+      "type": "stop",
+      "parent": {
+        "id": "8119038|2",
+        "name": "Kirchberg (M)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:3514",
+      "name": "Erdmannhausen",
+      "type": "stop",
+      "parent": {
+        "id": "8118014|1",
+        "name": "Erdmannhausen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7503",
+      "name": "Marbach (N)",
+      "type": "stop",
+      "parent": {
+        "id": "8118049|3",
+        "name": "Marbach (N)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:1500",
+      "name": "Benningen (N)",
+      "type": "stop",
+      "parent": {
+        "id": "8118006|1",
+        "name": "Benningen (N)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:1503",
+      "name": "Freiberg (N)",
+      "type": "stop",
+      "parent": {
+        "id": "8118078|2",
+        "name": "Freiberg (N)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7403",
+      "name": "Favoritepark",
+      "type": "stop",
+      "parent": {
+        "id": "8118048|1",
+        "name": "Eglosheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7402",
+      "name": "Ludwigsburg",
+      "type": "stop",
+      "parent": {
+        "id": "8118048|4",
+        "name": "Ludwigsburg",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:1402",
+      "name": "Kornwestheim",
+      "type": "stop",
+      "parent": {
+        "id": "8118046|1",
+        "name": "Kornwestheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6465",
+      "name": "Zuffenhausen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6157",
+      "name": "Feuerbach",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6295",
+      "name": "Nordbahnhof",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6115",
+      "name": "Stuttgart Hauptbahnhof (oben)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6118",
+      "name": "Stuttgart Hauptbahnhof (tief)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6056",
+      "name": "Stadtmitte",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6221",
+      "name": "Feuersee",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6052",
+      "name": "Schwabstraße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+
+require 'concourse/vvs/pipeline'
+require 'vvs/network_builder'
+
+include Concourse::VVS
+include VVS
+
+network = NetworkBuilder.new(
+  LinesFetcher.new,
+  LinesParser.new,
+  StationsFetcher.new,
+  StationsParser.new
+).build
+
+puts Pipeline.new(network).to_yaml

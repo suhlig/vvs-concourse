@@ -1,0 +1,280 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7600",
+      "name": "Backnang",
+      "type": "stop",
+      "parent": {
+        "id": "8119008|1",
+        "name": "Backnang",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7601",
+      "name": "Maubach",
+      "type": "stop",
+      "parent": {
+        "id": "8119008|5",
+        "name": "Maubach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1601",
+      "name": "Nellmersbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119042|4",
+        "name": "Nellmersbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7605",
+      "name": "Winnenden",
+      "type": "stop",
+      "parent": {
+        "id": "8119085|13",
+        "name": "Winnenden",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1603",
+      "name": "Schwaikheim",
+      "type": "stop",
+      "parent": {
+        "id": "8119068|1",
+        "name": "Schwaikheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:1602",
+      "name": "Neustadt-Hohenacker",
+      "type": "stop",
+      "parent": {
+        "id": "8119079|6",
+        "name": "Neustadt",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:7604",
+      "name": "Waiblingen",
+      "type": "stop",
+      "parent": {
+        "id": "8119079|8",
+        "name": "Waiblingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08119:6500",
+      "name": "Fellbach",
+      "type": "stop",
+      "parent": {
+        "id": "8119020|1",
+        "name": "Fellbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:1300",
+      "name": "Sommerrain",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:34",
+      "name": "Nürnberger Straße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6333",
+      "name": "Bad Cannstatt",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6115",
+      "name": "Stuttgart Hauptbahnhof (oben)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6333",
+      "name": "Bad Cannstatt",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6118",
+      "name": "Stuttgart Hauptbahnhof (tief)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6056",
+      "name": "Stadtmitte",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6221",
+      "name": "Feuersee",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6052",
+      "name": "Schwabstraße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6008",
+      "name": "Universität",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6027",
+      "name": "Österfeld",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6002",
+      "name": "Vaihingen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6001",
+      "name": "Rohr",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:2105",
+      "name": "Oberaichen",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|3",
+        "name": "Leinfelden",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:175",
+      "name": "Leinfelden",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|3",
+        "name": "Leinfelden",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:7003",
+      "name": "Echterdingen",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|1",
+        "name": "Echterdingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:2103",
+      "name": "Flughafen/Messe",
+      "type": "stop",
+      "parent": {
+        "id": "8116078|1",
+        "name": "Echterdingen",
+        "type": "locality"
+      }
+    }
+  ]
+}

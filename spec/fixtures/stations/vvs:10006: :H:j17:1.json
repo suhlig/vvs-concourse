@@ -1,0 +1,203 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08115:1303",
+      "name": "Weil der Stadt",
+      "type": "stop",
+      "parent": {
+        "id": "8115050|7",
+        "name": "Weil der Stadt",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:1301",
+      "name": "Malmsheim",
+      "type": "stop",
+      "parent": {
+        "id": "8115041|3",
+        "name": "Malmsheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7302",
+      "name": "Renningen",
+      "type": "stop",
+      "parent": {
+        "id": "8115041|4",
+        "name": "Renningen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:1302",
+      "name": "Rutesheim",
+      "type": "stop",
+      "parent": {
+        "id": "8115042|2",
+        "name": "Rutesheim",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7301",
+      "name": "Leonberg",
+      "type": "stop",
+      "parent": {
+        "id": "8115028|7",
+        "name": "Leonberg",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:1003",
+      "name": "Höfingen",
+      "type": "stop",
+      "parent": {
+        "id": "8115028|6",
+        "name": "Höfingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7000",
+      "name": "Ditzingen",
+      "type": "stop",
+      "parent": {
+        "id": "8118011|1",
+        "name": "Ditzingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:2270",
+      "name": "Weilimdorf",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08118:7603",
+      "name": "Korntal",
+      "type": "stop",
+      "parent": {
+        "id": "8118080|2",
+        "name": "Korntal",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:1403",
+      "name": "Neuwirtsh. (Porschep.)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6465",
+      "name": "Zuffenhausen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6157",
+      "name": "Feuerbach",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6295",
+      "name": "Nordbahnhof",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6115",
+      "name": "Stuttgart Hauptbahnhof (oben)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6118",
+      "name": "Stuttgart Hauptbahnhof (tief)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6056",
+      "name": "Stadtmitte",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6221",
+      "name": "Feuersee",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6052",
+      "name": "Schwabstraße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    }
+  ]
+}

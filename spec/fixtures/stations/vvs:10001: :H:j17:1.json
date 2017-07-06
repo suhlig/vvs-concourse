@@ -1,0 +1,346 @@
+{
+  "version": "10.2.2.48",
+  "locationSequence": [
+    {
+      "isGlobalId": true,
+      "id": "de:08116:4211",
+      "name": "Kirchheim (T)",
+      "type": "stop",
+      "parent": {
+        "id": "8116033|2",
+        "name": "Kirchheim (T)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:4345",
+      "name": "Ötlingen",
+      "type": "stop",
+      "parent": {
+        "id": "8116033|9",
+        "name": "Ötlingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:4257",
+      "name": "Wendlingen (N)",
+      "type": "stop",
+      "parent": {
+        "id": "8116071|3",
+        "name": "Wendlingen (N)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:4241",
+      "name": "Wernau (N)",
+      "type": "stop",
+      "parent": {
+        "id": "8116072|2",
+        "name": "Wernau (N)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:7802",
+      "name": "Plochingen",
+      "type": "stop",
+      "parent": {
+        "id": "8116056|1",
+        "name": "Plochingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:1800",
+      "name": "Altbach",
+      "type": "stop",
+      "parent": {
+        "id": "8116004|1",
+        "name": "Altbach",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:1803",
+      "name": "Zell",
+      "type": "stop",
+      "parent": {
+        "id": "8116019|25",
+        "name": "Zell (Essl.)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:1802",
+      "name": "Oberesslingen",
+      "type": "stop",
+      "parent": {
+        "id": "8116019|14",
+        "name": "Oberesslingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:7800",
+      "name": "Esslingen (N)",
+      "type": "stop",
+      "parent": {
+        "id": "8116019|3",
+        "name": "Esslingen (N)",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08116:1801",
+      "name": "Mettingen",
+      "type": "stop",
+      "parent": {
+        "id": "8116019|12",
+        "name": "Mettingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6091",
+      "name": "Obertürkheim",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6085",
+      "name": "Untertürkheim",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6080",
+      "name": "Neckarpark",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6333",
+      "name": "Bad Cannstatt",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6115",
+      "name": "Stuttgart Hauptbahnhof (oben)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6333",
+      "name": "Bad Cannstatt",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6118",
+      "name": "Stuttgart Hauptbahnhof (tief)",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6056",
+      "name": "Stadtmitte",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6221",
+      "name": "Feuersee",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6052",
+      "name": "Schwabstraße",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6008",
+      "name": "Universität",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6027",
+      "name": "Österfeld",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6002",
+      "name": "Vaihingen",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08111:6001",
+      "name": "Rohr",
+      "type": "stop",
+      "parent": {
+        "id": "8111000|51",
+        "name": "Stuttgart",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:3212",
+      "name": "Goldberg",
+      "type": "stop",
+      "parent": {
+        "id": "8115003|1",
+        "name": "Böblingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7100",
+      "name": "Böblingen",
+      "type": "stop",
+      "parent": {
+        "id": "8115003|1",
+        "name": "Böblingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:7115",
+      "name": "Hulb",
+      "type": "stop",
+      "parent": {
+        "id": "8115003|1",
+        "name": "Böblingen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:5773",
+      "name": "Ehningen",
+      "type": "stop",
+      "parent": {
+        "id": "8115013|1",
+        "name": "Ehningen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:5774",
+      "name": "Gärtringen",
+      "type": "stop",
+      "parent": {
+        "id": "8115015|1",
+        "name": "Gärtringen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:5775",
+      "name": "Nufringen",
+      "type": "stop",
+      "parent": {
+        "id": "8115037|1",
+        "name": "Nufringen",
+        "type": "locality"
+      }
+    },
+    {
+      "isGlobalId": true,
+      "id": "de:08115:4512",
+      "name": "Herrenberg",
+      "type": "stop",
+      "parent": {
+        "id": "8115021|5",
+        "name": "Herrenberg",
+        "type": "locality"
+      }
+    }
+  ]
+}

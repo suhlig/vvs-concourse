@@ -1,0 +1,583 @@
+{
+  "version": "10.2.2.48",
+  "lines": [
+    {
+      "id": "vvs:10001: :H:j17:1",
+      "name": "S-Bahn S1",
+      "disassembledName": "S1",
+      "number": "S1",
+      "iconId": 0,
+      "description": "Kirchheim (T) - Plochingen - Stuttgart - Herrenberg",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5004512",
+        "name": "Herrenberg",
+        "type": "stop"
+      },
+      "properties": {
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10001: :R:j17:1",
+      "name": "S-Bahn S1",
+      "disassembledName": "S1",
+      "number": "S1",
+      "iconId": 0,
+      "description": "Herrenberg - Stuttgart - Plochingen - Kirchheim (T)",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5004211",
+        "name": "Kirchheim (T)",
+        "type": "stop"
+      },
+      "properties": {
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10002: :H:j17:1",
+      "name": "S-Bahn S2",
+      "disassembledName": "S2",
+      "number": "S2",
+      "iconId": 0,
+      "description": "Schorndorf - Stuttgart - Flughafen/Messe - Filderstadt",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5001905",
+        "name": "Filderstadt",
+        "type": "stop"
+      },
+      "properties": {
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017 ab 11.06.17",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10002: :R:j17:1",
+      "name": "S-Bahn S2",
+      "disassembledName": "S2",
+      "number": "S2",
+      "iconId": 0,
+      "description": "Filderstadt  - Flughafen/Messe - Stuttgart - Schorndorf",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5007703",
+        "name": "Schorndorf",
+        "type": "stop"
+      },
+      "properties": {
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017 ab 11.06.17",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10003: :H:j17:1",
+      "name": "S-Bahn S3",
+      "disassembledName": "S3",
+      "number": "S3",
+      "iconId": 0,
+      "description": "Backnang - Stuttgart - Flughafen/Messe",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5002103",
+        "name": "Flughafen/Messe",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10003: :R:j17:1",
+      "name": "S-Bahn S3",
+      "disassembledName": "S3",
+      "number": "S3",
+      "iconId": 0,
+      "description": "Flughafen/Messe - Stuttgart - Backnang",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5007600",
+        "name": "Backnang",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10004: :H:j17:1",
+      "name": "S-Bahn S4",
+      "disassembledName": "S4",
+      "number": "S4",
+      "iconId": 0,
+      "description": "Backnang - Marbach - Stuttgart",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5006052",
+        "name": "Schwabstraße",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017, gültig ab 13.03.17",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10004: :R:j17:1",
+      "name": "S-Bahn S4",
+      "disassembledName": "S4",
+      "number": "S4",
+      "iconId": 0,
+      "description": "Stuttgart - Marbach - Backnang",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5007600",
+        "name": "Backnang",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017, gültig ab 13.03.17",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10005: :H:j17:1",
+      "name": "S-Bahn S5",
+      "disassembledName": "S5",
+      "number": "S5",
+      "iconId": 0,
+      "description": "Bietigheim-Bissingen - Stuttgart",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5006052",
+        "name": "Schwabstraße",
+        "type": "stop"
+      },
+      "properties": {
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10005: :R:j17:1",
+      "name": "S-Bahn S5",
+      "disassembledName": "S5",
+      "number": "S5",
+      "iconId": 0,
+      "description": "Stuttgart - Bietigheim-Bissingen",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5001400",
+        "name": "Bietigheim-Bissingen",
+        "type": "stop"
+      },
+      "properties": {
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10006: :H:j17:1",
+      "name": "S-Bahn S6",
+      "disassembledName": "S6",
+      "number": "S6",
+      "iconId": 0,
+      "description": "Weil der Stadt - Leonberg - Stuttgart",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5006052",
+        "name": "Schwabstraße",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10006: :R:j17:1",
+      "name": "S-Bahn S6",
+      "disassembledName": "S6",
+      "number": "S6",
+      "iconId": 0,
+      "description": "Stuttgart - Leonberg - Weil der Stadt",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5001303",
+        "name": "Weil der Stadt",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10060: :H:j17:1",
+      "name": "S-Bahn S60",
+      "disassembledName": "S60",
+      "number": "S60",
+      "iconId": 0,
+      "description": "Böblingen - Renningen (- Stuttgart)",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5006052",
+        "name": "Schwabstraße",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10060: :R:j17:1",
+      "name": "S-Bahn S60",
+      "disassembledName": "S60",
+      "number": "S60",
+      "iconId": 0,
+      "description": "(Stuttgart -) Renningen - Böblingen",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5007100",
+        "name": "Böblingen",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Jahresfahrplan 2017",
+        "validity": {
+          "from": "2017-06-11T00:00:00+02:00",
+          "to": "2500-12-31T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:10060: :H:j17:14",
+      "name": "S-Bahn S60",
+      "disassembledName": "S60",
+      "number": "S60",
+      "iconId": 0,
+      "description": "Böblingen - Renningen (- Stuttgart)",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5007302",
+        "name": "Renningen",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Fahrplan 2017",
+        "validity": {
+          "from": "2017-10-22T00:00:00+02:00",
+          "to": "2017-10-22T23:59:00+02:00"
+        },
+        "version": "14"
+      }
+    },
+    {
+      "id": "vvs:10060: :R:j17:14",
+      "name": "S-Bahn S60",
+      "disassembledName": "S60",
+      "number": "S60",
+      "iconId": 0,
+      "description": "(Stuttgart -) Renningen - Böblingen",
+      "product": {
+        "class": 1,
+        "name": "S-Bahn",
+        "iconId": 2
+      },
+      "operator": {
+        "id": "10",
+        "name": "DB"
+      },
+      "destination": {
+        "id": "5007100",
+        "name": "Böblingen",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isSTT": true,
+        "isROP": true,
+        "timetablePeriod": "Fahrplan 2017",
+        "validity": {
+          "from": "2017-10-22T00:00:00+02:00",
+          "to": "2017-10-22T23:59:00+02:00"
+        },
+        "version": "14"
+      }
+    },
+    {
+      "id": "vvs:31367:e:H:j17:1",
+      "name": "Bus Shuttleverkehr Andrea Berg",
+      "number": "Shuttleverkehr Andrea Berg",
+      "iconId": 5,
+      "description": "Shuttleverkehr mechatronik Arena",
+      "product": {
+        "class": 5,
+        "name": "Bus",
+        "iconId": 3
+      },
+      "operator": {
+        "id": "98",
+        "name": "OVR"
+      },
+      "destination": {
+        "id": "5006522",
+        "name": "Großaspach mechatronik Arena",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isROP": true,
+        "timetablePeriod": "Fahrplan 2017",
+        "validity": {
+          "from": "2017-07-14T00:00:00+02:00",
+          "to": "2017-07-15T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    },
+    {
+      "id": "vvs:31367:e:R:j17:1",
+      "name": "Bus Shuttleverkehr Andrea Berg",
+      "number": "Shuttleverkehr Andrea Berg",
+      "iconId": 5,
+      "description": "Shuttleverkehr mechatronik Arena",
+      "product": {
+        "class": 5,
+        "name": "Bus",
+        "iconId": 3
+      },
+      "operator": {
+        "id": "98",
+        "name": "OVR"
+      },
+      "destination": {
+        "id": "5007600",
+        "name": "Backnang ZOB",
+        "type": "stop"
+      },
+      "properties": {
+        "isTTB": true,
+        "isROP": true,
+        "timetablePeriod": "Fahrplan 2017",
+        "validity": {
+          "from": "2017-07-14T00:00:00+02:00",
+          "to": "2017-07-15T23:59:00+02:00"
+        },
+        "version": "1"
+      }
+    }
+  ]
+}
