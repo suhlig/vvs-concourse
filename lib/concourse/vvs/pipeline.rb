@@ -35,7 +35,7 @@ module Concourse
         {
           'resources' => resources,
           'groups' => groups,
-          'jobs' => jobs,
+          'jobs' => jobs
         }.to_yaml
       end
 
@@ -44,14 +44,14 @@ module Concourse
       def create_network_group(stations)
         {
           'name' => 'Network',
-          'jobs' => stations.map { |s| s.name },
+          'jobs' => stations.map(&:name)
         }
       end
 
       def create_line_group(line)
         {
           'name' => line.name,
-          'jobs' => line.stations.map { |s| s.name },
+          'jobs' => line.stations.map(&:name)
         }
       end
 
@@ -88,7 +88,9 @@ module Concourse
             'trigger' => true
           }.tap do |result|
             begin
-              if previous_station = line.previous_station(station)
+              previous_station = line.previous_station(station)
+
+              if previous_station
                 result['passed'] = [previous_station.name]
               end
             rescue

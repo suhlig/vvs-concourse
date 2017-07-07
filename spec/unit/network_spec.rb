@@ -5,6 +5,7 @@ require 'vvs/parser'
 require 'vvs/fetcher'
 require 'webmock/rspec'
 
+# rubocop:disable Metrics/BlockLength
 describe VVS::Network do
   subject(:network) do
     VVS::NetworkBuilder.new(
@@ -16,17 +17,16 @@ describe VVS::Network do
   end
 
   before do
-    stub_request(:get, 'https://www3.vvs.de/mngvvs/XML_SERVINGLINES_REQUEST?lineName=s&lineReqType=8&lsShowTrainsExplicit=1&mode=line&outputFormat=rapidJSON')
-      .to_return(status: 200, body: fixture('lines.json').read, headers: {})
-
+    stub_request(:get, 'https://www3.vvs.de/mngvvs/XML_SERVINGLINES_REQUEST?lineName=s&lineReqType=8&lsShowTrainsExplicit=1&mode=line&outputFormat=rapidJSON').
+      to_return(status: 200, body: fixture('lines.json').read, headers: {})
     [
       'vvs:10001: :H:j17:1', 'vvs:10002: :H:j17:1', 'vvs:10003: :H:j17:1',
       'vvs:10004: :H:j17:1', 'vvs:10005: :H:j17:1', 'vvs:10006: :H:j17:1',
       'vvs:10060: :H:j17:1', 'vvs:10060: :H:j17:14', 'vvs:31367:e:H:j17:1',
       'vvs:31367:e:R:j17:1'
     ].each do |id|
-      stub_request(:get, "https://www3.vvs.de/mngvvs/XML_LINESTOP_REQUEST?line=#{id}&outputFormat=rapidJSON")
-        .to_return(status: 200, body: fixture("stations/#{id}.json").read, headers: {})
+      stub_request(:get, "https://www3.vvs.de/mngvvs/XML_LINESTOP_REQUEST?line=#{id}&outputFormat=rapidJSON").
+        to_return(status: 200, body: fixture("stations/#{id}.json").read, headers: {})
     end
   end
 
