@@ -12,8 +12,6 @@ module VVS
 
         if product_name == 'S-Bahn'
           Line.new(line['id'], line['disassembledName'])
-        else
-          warn "Ignoring #{product_name} #{line['id']}"
         end
       end.compact.reject do |line|
         /vvs:\d+:.:R/.match(line.id) # do not present Rueckfahrt
