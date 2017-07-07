@@ -20,9 +20,11 @@ module Concourse
         groups = []
         add_self(resources)
 
+        groups << create_network_group(@network.stations)
+
         @network.lines.each do |line|
           resources << create_resource(line)
-          groups << create_group(line)
+          groups << create_line_group(line)
         end
 
         jobs = []
@@ -39,7 +41,14 @@ module Concourse
 
       private
 
-      def create_group(line)
+      def create_network_group(stations)
+        {
+          'name' => 'Network',
+          'jobs' => stations.map { |s| s.name },
+        }
+      end
+
+      def create_line_group(line)
         {
           'name' => line.name,
           'jobs' => line.stations.map { |s| s.name },
