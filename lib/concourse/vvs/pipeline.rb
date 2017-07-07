@@ -50,7 +50,7 @@ module Concourse
         {
           'name' => line.name,
           'type' => 'time',
-          'source' => { 'interval' => '5m' }
+          'source' => { 'interval' => "#{rand(5..15)}m" }
         }
       end
 

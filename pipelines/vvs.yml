@@ -10,7 +10,7 @@ resources:
 - name: S1
   type: time
   source:
-    interval: 5m
+    interval: 8m
 - name: S2
   type: time
   source:
@@ -18,23 +18,19 @@ resources:
 - name: S3
   type: time
   source:
-    interval: 5m
+    interval: 7m
 - name: S4
   type: time
   source:
-    interval: 5m
+    interval: 8m
 - name: S5
   type: time
   source:
-    interval: 5m
+    interval: 8m
 - name: S6
   type: time
   source:
-    interval: 5m
-- name: S60
-  type: time
-  source:
-    interval: 5m
+    interval: 9m
 groups:
 - name: S1
   jobs:
@@ -174,34 +170,6 @@ groups:
   - Feuerbach
   - Nordbahnhof
   - Stuttgart Hauptbahnhof (oben)
-  - Stuttgart Hauptbahnhof (tief)
-  - Stadtmitte
-  - Feuersee
-  - Schwabstraße
-- name: S60
-  jobs:
-  - Herrenberg
-  - Nufringen
-  - Gärtringen
-  - Ehningen
-  - Hulb
-  - Böblingen
-  - Sindelfingen
-  - Maichingen
-  - Maichingen Nord
-  - Magstadt
-  - Renningen Süd
-  - Renningen
-  - Rutesheim
-  - Leonberg
-  - Höfingen
-  - Ditzingen
-  - Weilimdorf
-  - Korntal
-  - Neuwirtsh. (Porschep.)
-  - Zuffenhausen
-  - Feuerbach
-  - Nordbahnhof
   - Stuttgart Hauptbahnhof (tief)
   - Stadtmitte
   - Feuersee
@@ -453,10 +421,6 @@ jobs:
       trigger: true
       passed:
       - Stuttgart Hauptbahnhof (oben)
-    - get: S60
-      trigger: true
-      passed:
-      - Nordbahnhof
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -487,10 +451,6 @@ jobs:
       passed:
       - Stuttgart Hauptbahnhof (tief)
     - get: S6
-      trigger: true
-      passed:
-      - Stuttgart Hauptbahnhof (tief)
-    - get: S60
       trigger: true
       passed:
       - Stuttgart Hauptbahnhof (tief)
@@ -527,10 +487,6 @@ jobs:
       trigger: true
       passed:
       - Stadtmitte
-    - get: S60
-      trigger: true
-      passed:
-      - Stadtmitte
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -561,10 +517,6 @@ jobs:
       passed:
       - Feuersee
     - get: S6
-      trigger: true
-      passed:
-      - Feuersee
-    - get: S60
       trigger: true
       passed:
       - Feuersee
@@ -678,10 +630,6 @@ jobs:
       trigger: true
       passed:
       - Goldberg
-    - get: S60
-      trigger: true
-      passed:
-      - Hulb
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -695,10 +643,6 @@ jobs:
       trigger: true
       passed:
       - Böblingen
-    - get: S60
-      trigger: true
-      passed:
-      - Ehningen
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -712,10 +656,6 @@ jobs:
       trigger: true
       passed:
       - Hulb
-    - get: S60
-      trigger: true
-      passed:
-      - Gärtringen
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -729,10 +669,6 @@ jobs:
       trigger: true
       passed:
       - Ehningen
-    - get: S60
-      trigger: true
-      passed:
-      - Nufringen
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -746,10 +682,6 @@ jobs:
       trigger: true
       passed:
       - Gärtringen
-    - get: S60
-      trigger: true
-      passed:
-      - Herrenberg
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -763,8 +695,6 @@ jobs:
       trigger: true
       passed:
       - Nufringen
-    - get: S60
-      trigger: true
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -1253,10 +1183,6 @@ jobs:
       trigger: true
       passed:
       - Neuwirtsh. (Porschep.)
-    - get: S60
-      trigger: true
-      passed:
-      - Neuwirtsh. (Porschep.)
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -1278,10 +1204,6 @@ jobs:
       trigger: true
       passed:
       - Zuffenhausen
-    - get: S60
-      trigger: true
-      passed:
-      - Zuffenhausen
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -1300,10 +1222,6 @@ jobs:
       passed:
       - Feuerbach
     - get: S6
-      trigger: true
-      passed:
-      - Feuerbach
-    - get: S60
       trigger: true
       passed:
       - Feuerbach
@@ -1381,10 +1299,6 @@ jobs:
       trigger: true
       passed:
       - Malmsheim
-    - get: S60
-      trigger: true
-      passed:
-      - Renningen Süd
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -1395,10 +1309,6 @@ jobs:
     - get: pipeline
       trigger: true
     - get: S6
-      trigger: true
-      passed:
-      - Renningen
-    - get: S60
       trigger: true
       passed:
       - Renningen
@@ -1415,10 +1325,6 @@ jobs:
       trigger: true
       passed:
       - Rutesheim
-    - get: S60
-      trigger: true
-      passed:
-      - Rutesheim
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -1429,10 +1335,6 @@ jobs:
     - get: pipeline
       trigger: true
     - get: S6
-      trigger: true
-      passed:
-      - Leonberg
-    - get: S60
       trigger: true
       passed:
       - Leonberg
@@ -1449,10 +1351,6 @@ jobs:
       trigger: true
       passed:
       - Höfingen
-    - get: S60
-      trigger: true
-      passed:
-      - Höfingen
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -1463,10 +1361,6 @@ jobs:
     - get: pipeline
       trigger: true
     - get: S6
-      trigger: true
-      passed:
-      - Ditzingen
-    - get: S60
       trigger: true
       passed:
       - Ditzingen
@@ -1483,10 +1377,6 @@ jobs:
       trigger: true
       passed:
       - Weilimdorf
-    - get: S60
-      trigger: true
-      passed:
-      - Weilimdorf
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
@@ -1500,76 +1390,7 @@ jobs:
       trigger: true
       passed:
       - Korntal
-    - get: S60
-      trigger: true
-      passed:
-      - Korntal
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
       station: Neuwirtsh. (Porschep.)
-- name: Sindelfingen
-  plan:
-  - aggregate:
-    - get: pipeline
-      trigger: true
-    - get: S60
-      trigger: true
-      passed:
-      - Böblingen
-  - task: Halt
-    file: pipeline/tasks/halt/task.yml
-    params:
-      station: Sindelfingen
-- name: Maichingen
-  plan:
-  - aggregate:
-    - get: pipeline
-      trigger: true
-    - get: S60
-      trigger: true
-      passed:
-      - Sindelfingen
-  - task: Halt
-    file: pipeline/tasks/halt/task.yml
-    params:
-      station: Maichingen
-- name: Maichingen Nord
-  plan:
-  - aggregate:
-    - get: pipeline
-      trigger: true
-    - get: S60
-      trigger: true
-      passed:
-      - Maichingen
-  - task: Halt
-    file: pipeline/tasks/halt/task.yml
-    params:
-      station: Maichingen Nord
-- name: Magstadt
-  plan:
-  - aggregate:
-    - get: pipeline
-      trigger: true
-    - get: S60
-      trigger: true
-      passed:
-      - Maichingen Nord
-  - task: Halt
-    file: pipeline/tasks/halt/task.yml
-    params:
-      station: Magstadt
-- name: Renningen Süd
-  plan:
-  - aggregate:
-    - get: pipeline
-      trigger: true
-    - get: S60
-      trigger: true
-      passed:
-      - Magstadt
-  - task: Halt
-    file: pipeline/tasks/halt/task.yml
-    params:
-      station: Renningen Süd
