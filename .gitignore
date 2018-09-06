@@ -1,3 +1,4 @@
 .envrc
 stations/*
 .rake_t_cache
+tmp
