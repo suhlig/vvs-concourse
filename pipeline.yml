@@ -462,6 +462,10 @@ jobs:
       trigger: true
       passed:
       - Nürnberger Straße
+    - get: S3
+      trigger: true
+      passed:
+      - Nürnberger Straße
   - task: Halt
     file: pipeline/tasks/halt/task.yml
     params:
