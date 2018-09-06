@@ -30,8 +30,13 @@ module VVS
 
   class StationsParser
     def parse(string)
-      JSON.parse(string)['locationSequence'].map do |line|
-        Station.new(line['id'], line['name'])
+      stations = JSON.parse(string)['locationSequence']
+      if stations.nil?
+        []
+      else
+        stations.map do |line|
+          Station.new(line['id'], line['name'])
+        end
       end
     end
   end
