@@ -31,14 +31,13 @@ describe VVS::Network do
   end
 
   it 'has the expected lines' do
-    expect(network.lines.size).to eq(7)
+    expect(network.lines.size).to eq(6)
     expect(network.lines[0].name).to eq('S1')
     expect(network.lines[1].name).to eq('S2')
     expect(network.lines[2].name).to eq('S3')
     expect(network.lines[3].name).to eq('S4')
     expect(network.lines[4].name).to eq('S5')
     expect(network.lines[5].name).to eq('S6')
-    expect(network.lines[6].name).to eq('S60')
   end
 
   context 'Line S1' do
